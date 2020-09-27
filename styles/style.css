@@ -1,0 +1,63 @@
+:root {
+  /* Primary */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+
+  /* Neutral */
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  width: 100%;
+}
+
+.content-wrapper {
+  padding: 4rem 1.5rem;
+}
+
+/****** Top Section ******/
+.top-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation h1 {
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+
+.presentation h2 {
+  color: var(--dark-grayish-magenta);
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.ratings {
+  margin: 2rem 0;
+}
+
+.rating h4 {
+  color: var(--very-dark-magenta);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/****** Cards Section ******/
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
