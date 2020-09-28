@@ -46,6 +46,7 @@ main {
   left: 0;
   height: 61%;
   width: 100%;
+  z-index: -1;
 }
 
 .content-wrapper {
@@ -159,6 +160,7 @@ main {
   bottom: 0;
   height: 31%;
   width: 100%;
+  z-index: -1;
 }
 
 /****** footer ******/
@@ -182,4 +184,128 @@ footer {
 
 .attribution i {
   font-size: 10px;
+}
+
+@media only screen and (min-width: 690px) {
+  .content-wrapper {
+    padding: 4rem 5rem;
+  }
+}
+
+@media only screen and (min-width: 790px) {
+  .content-wrapper {
+    padding: 4rem 6rem;
+  }
+}
+
+@media only screen and (min-width: 890px) {
+  .content-wrapper {
+    padding: 4rem 7rem;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  #top-bg-img {
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    background-size: 43% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 61%;
+    width: 100%;
+  }
+
+  .content-wrapper {
+    padding: 7rem 6rem 5rem;
+  }
+
+  .top-section {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .presentation {
+    text-align: left;
+    padding-right: 3%;
+  }
+
+  .presentation h1 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+
+  .ratings {
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  .rating {
+    /* min-width: 23.5rem; */
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  .rating h4 {
+    padding: 0;
+  }
+
+  .rating .stars {
+    padding: 1rem 1.6rem;
+  }
+
+  #reviews-rating {
+    margin-right: calc(calc(100vw - 950px) * 0.2);
+  }
+
+  #report-guru-rating {
+    margin-left: calc(calc(100vw - 950px) * 0.1);
+    margin-right: calc(calc(100vw - 950px) * 0.1);
+  }
+
+  #best-tech-rating {
+    margin-left: calc(calc(100vw - 950px) * 0.2);
+  }
+
+  #bottom-bg-img {
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 73%;
+    height: 260%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content-wrapper {
+    padding: 7rem 8rem 5rem;
+  }
+
+  .presentation {
+    padding-right: 0;
+  }
+
+  .presentation h1 {
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+  }
+
+  .presentation p {
+    padding-top: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1370px) {
+  .content-wrapper {
+    padding: 7rem 12rem 5rem;
+  }
+
+  .presentation {
+    padding-right: 5%;
+  }
 }
