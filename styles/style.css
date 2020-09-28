@@ -82,7 +82,7 @@ main {
 .rating {
   background-color: var(--light-grayish-magenta);
   border-radius: 5px;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 .rating .stars {
