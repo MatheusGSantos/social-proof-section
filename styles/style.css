@@ -67,7 +67,7 @@ main {
   line-height: 1.9rem;
 }
 
-.presentation h2 {
+.presentation p {
   color: var(--dark-grayish-magenta);
   font-weight: 500;
   font-size: 14px;
@@ -111,6 +111,25 @@ main {
   margin-bottom: 2rem;
   border-radius: 5px;
   padding: 2rem 1.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.card-top img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.8rem;
+}
+
+.user-information h2 {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .card #anne-card {
@@ -129,6 +148,7 @@ main {
 
 .testimonial {
   color: var(--light-grayish-magenta);
+  font-size: 1rem;
 }
 
 #bottom-bg-img {
@@ -137,7 +157,7 @@ main {
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
-  height: 10%;
+  height: 31%;
   width: 100%;
 }
 
