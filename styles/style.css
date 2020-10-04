@@ -232,7 +232,7 @@ footer {
 
   .presentation {
     text-align: left;
-    max-width: 520px;
+    max-width: 480px;
   }
 
   .presentation h1 {
@@ -241,44 +241,27 @@ footer {
   }
 
   .presentation p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .ratings {
     width: 100%;
-
     align-items: flex-end;
   }
 
   .rating {
     width: 90%;
     max-width: 450px;
-    /* display: flex;
-    align-items: center; */
   }
 
   .rating h4 {
     padding: 0;
-    font-size: 16px;
+    font-size: 15px;
   }
-
-  /* #reviews-rating {
-    margin-right: calc(calc(100vw - 950px) * 0.2);
-  }
-
-  #report-guru-rating {
-    margin-left: calc(calc(100vw - 950px) * 0.1);
-    margin-right: calc(calc(100vw - 950px) * 0.1);
-  }
-
-  #best-tech-rating {
-    margin-left: calc(calc(100vw - 950px) * 0.2);
-  } */
 
   .card-container {
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
 
   .card {
@@ -316,11 +299,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  /* .content-wrapper {
-    padding: 7rem 8rem 5rem;
-  } */
-
+@media only screen and (min-width: 1310px) {
   .presentation h1 {
     font-size: 3.3rem;
     line-height: 3.5rem;
@@ -333,6 +312,26 @@ footer {
   .ratings {
     padding-left: 5%;
   }
+
+  .rating {
+    display: flex;
+  }
+
+  #reviews-rating {
+    margin-right: 2rem;
+  }
+
+  #report-guru-rating {
+    margin-right: 1rem;
+  }
+
+  #best-tech-rating {
+    margin-left: 0;
+  }
+
+  .ratings .stars {
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -340,5 +339,17 @@ footer {
     margin: 0 auto;
     max-width: 1440px;
     padding: 7rem 9rem 4rem;
+  }
+
+  #reviews-rating {
+    margin-right: 5rem;
+  }
+
+  #report-guru-rating {
+    margin-right: 2.5rem;
+  }
+
+  #best-tech-rating {
+    margin-left: 0;
   }
 }
