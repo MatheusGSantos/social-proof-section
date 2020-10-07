@@ -261,7 +261,6 @@ footer {
 
   .card-container {
     flex-direction: row;
-    justify-content: space-between;
   }
 
   .card {
@@ -274,17 +273,17 @@ footer {
 
   #colton-card {
     margin-bottom: 4rem;
+    margin-right: 1.5%;
   }
 
   #irene-card {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 1.5%;
   }
 
   #anne-card {
-    margin-right: 0;
     margin-top: 4rem;
     margin-bottom: 0;
+    margin-left: 1.5%;
   }
 
   #bottom-bg-img {
